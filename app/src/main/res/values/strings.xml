@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Tichatool recorder</string>
+    <string name="rec">recorder</string>
+    <string name="T">tichatool</string>
+    <string name="by">by</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email or phone</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">login</string>
+    <string name="action_sign_in_short">register</string>
+    <string name="forgot">forgot password</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="returnTologin">" tap to return to login"</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="splashfrom">"from"</string>
+    <string name="splash">"the_iibuiders"</string>
+
+    <!-- button texts -->
+    <string name="subj">"subjects"</string>
+    <string name="classes">"classes"</string>
+    <string name="voic">"voice"</string>
+    <string name="no">"no"</string>
+    <string name="newyes">"yes"</string>
+    <string name="cancel">"cancel"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="changesku">" Changing school will erase \n all data from this app \n your login info, students, \n school etc \n you can add user and register new school instead, \n by clicking the button above"</string>
+    <string name="userprompt">" Already uploaded once, \n do you want to replace \n previous results?"</string>
+    <string name="askadmin">" please ask your \n admin to accept \n your application \n refresh after acceptance"</string>
+    <string name="noapply">" You haven't applied \n to any school yet. \n  \n  \n Apply and refresh "</string>
+    <string name="wecom">" welcome to "</string>
+
+    <string name="clickuser">"click the round button above to add user"</string>
+    <string name="pleasecheck">"Please check a box and enter date"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bannertxt"> why is this showing?  <br> click more to remove ads from here</br> </string>
+    <string name="bannerpopuptxt"> why is this showing? \n this shows to pass insructions on this page to user.
+        \n if ads shows here, its due to your admin running on free version of tichatool.
+        \n click more to remove ads from here </string>
+</resources>

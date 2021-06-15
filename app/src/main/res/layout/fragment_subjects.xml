@@ -1,0 +1,198 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sbjSearch"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    app:cardBackgroundColor="#FAF1F4"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+
+    <LinearLayout
+        android:id="@+id/Add_ubjectLY"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginBottom="300dp"
+        android:background="#4A4646"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/add_subjectEdittext"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="70dp"
+            android:ems="10"
+            android:hint="subject name"
+            android:inputType="textPersonName"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="40dp"
+            android:text="add subject" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sbjSearchLY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <EditText
+                android:id="@+id/studentsearchEdittext"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:backgroundTint="#E91E63"
+                android:inputType="textPersonName"
+                android:text="search school database"
+                android:textAlignment="center"
+                android:textColor="#F496B6"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/addicon_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/add"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/search_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/searching_subject"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/FoundItOnPhone_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/onphone"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/SbjNetWorkOff_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/wifi_off"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="290dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/dynamictxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="dynamictxt"
+                    android:textColor="#B92AD1"
+                    android:textSize="16sp"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- let search show contents in ofline database,
+        and go online when go in keyboard is clicked  -->
+
+        <!-- dynamictxt should change to "searching ofline database" making
+        search icon is vissible.
+         if its in phone database, it should change to "found it" if not,
+         it should change to " click on search icon in keyboard to search online"
+         making search_img visible . if data is off
+         settext to "network is off, turn it on" while SbjNetWorkOff_img icon shows
+
+         If its not in offline and online database, settext to
+         " not found, click on add subject" making addicon_img visible-->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="450dp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/AddSbjLYbtn"
+            android:layout_width="match_parent"
+            android:layout_height="140dp">
+
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/add"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="19dp"
+                android:text="add subject"
+                android:textColor="#E91E63"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

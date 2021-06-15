@@ -1,0 +1,245 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.c--------------------------------------------om/apk/res-auto"
+    xmlns:app2="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/inpuutlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    android:background="#3A3636">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app2:layout_constraintBottom_toBottomOf="parent"
+        app2:layout_constraintEnd_toEndOf="parent"
+        app2:layout_constraintStart_toStartOf="parent"
+        app2:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Surname:"
+                    android:textColor="#FD91B6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="First name:"
+                    android:textColor="#FD91B6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Middle Name:"
+                    android:textColor="#FD91B6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/SurnameDisplay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="surname"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/FirstNameDisplay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="first name"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/middleNameDisplay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="middle name"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="1st"
+                android:textAlignment="center"
+                android:textColor="#EFCAD7" />
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="2nd"
+                android:textAlignment="center"
+                android:textColor="#EFCAD7" />
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="3rd"
+                android:textAlignment="center"
+                android:textColor="#EFCAD7" />
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="4th"
+                android:textAlignment="center"
+                android:textColor="#EFCAD7" />
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="exam"
+                android:textAlignment="center"
+                android:textColor="#EFCAD7" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            // android:inputType="number"
+
+
+            <EditText
+                android:id="@+id/firstscore"
+                android:layout_width="55dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10sp"
+                android:layout_marginEnd="10dp"
+                android:background="#DACFCF"
+                android:textAlignment="center"
+                android:textColor="#2B0210" />
+            android:ems="10"
+            // android:inputType="number"
+
+
+            <EditText
+                android:id="@+id/secondscore"
+                android:layout_width="55dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10sp"
+                android:layout_marginEnd="10dp"
+                android:background="#DACFCF"
+                android:textAlignment="center"
+                android:textColor="#2B0210" />
+            //android:inputType="number" />
+
+            <EditText
+                android:id="@+id/thirdhscore"
+                android:layout_width="55dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10sp"
+                android:layout_marginEnd="10dp"
+                android:background="#DACFCF"
+                android:textAlignment="center"
+                android:textColor="#2B0210" />
+            //android:inputType="number" />
+
+            <EditText
+                android:id="@+id/fourhtscore"
+                android:layout_width="55dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10sp"
+                android:layout_marginEnd="10dp"
+                android:background="#DACFCF"
+                android:textAlignment="center"
+                android:textColor="#2B0210" />
+
+            <EditText
+                android:id="@+id/examscore"
+                android:layout_width="55dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10sp"
+                android:layout_marginEnd="10dp"
+                android:background="#DACFCF"
+                android:textAlignment="center"
+                android:textColor="#2B0210" />
+            // android:inputType="number" />
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+
+            <TextView
+                android:id="@+id/cancelinput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:text="cancle"
+                android:textColor="#EDC6D3"
+                android:textSize="20sp"
+                app2:layout_constraintBottom_toBottomOf="parent"
+                app2:layout_constraintEnd_toEndOf="parent"
+                app2:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/saveinputBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="save"
+                android:textColor="#EDC6D3"
+                android:textSize="20sp"
+                app2:layout_constraintBottom_toBottomOf="parent"
+                app2:layout_constraintStart_toStartOf="parent"
+                app2:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

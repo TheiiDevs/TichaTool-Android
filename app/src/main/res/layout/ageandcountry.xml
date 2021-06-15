@@ -1,0 +1,107 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sbjSearch"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    app:cardBackgroundColor="#FAF1F4"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RadioButton
+            android:id="@+id/maleRadioBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="171dp"
+            android:buttonTint="#E91E63"
+            android:text="male"
+            android:textColor="#E91E63"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioButton
+            android:id="@+id/femaleRadioBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="171dp"
+            android:buttonTint="#E91E63"
+            android:text="female"
+            android:textColor="#E91E63"
+            app:layout_constraintEnd_toStartOf="@+id/otherRadioBtn"
+            app:layout_constraintStart_toEndOf="@+id/maleRadioBtn"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioButton
+            android:id="@+id/otherRadioBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="171dp"
+            android:layout_marginEnd="50dp"
+            android:buttonTint="#E91E63"
+            android:text="other"
+            android:textColor="#E91E63"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/countryspinner"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="301dp"
+            android:background="#00FFFFFF"
+            android:backgroundTint="#E30F57"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/regDOBet"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="33dp"
+            android:backgroundTint="#E30F57"
+            android:ems="10"
+            android:hint=" dd/mm/yyyy"
+            android:inputType="date"
+            android:textAlignment="center"
+            android:textColorHint="#F389AD"
+            app:layout_constraintBottom_toTopOf="@+id/textView12"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="country"
+            android:textColor="#E91E63"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/countryspinner"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:text="date of birth"
+            android:textColor="#E91E63"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/regDOBet"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

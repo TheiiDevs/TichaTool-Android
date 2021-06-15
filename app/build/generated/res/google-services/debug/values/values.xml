@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">649773822460-usd54fpdr8ipj6rt09ko1qul3dthhc4f.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">649773822460</string>
+    <string name="google_api_key" translatable="false">AIzaSyAQp6jv3QjeMMm6K5LAgLURu2CyKSFBBiI</string>
+    <string name="google_app_id" translatable="false">1:649773822460:android:4671bb67f7892485548279</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAQp6jv3QjeMMm6K5LAgLURu2CyKSFBBiI</string>
+    <string name="google_storage_bucket" translatable="false">tichatool-recorder.appspot.com</string>
+    <string name="project_id" translatable="false">tichatool-recorder</string>
+</resources>

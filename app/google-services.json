@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "649773822460",
+    "project_id": "tichatool-recorder",
+    "storage_bucket": "tichatool-recorder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649773822460:android:4671bb67f7892485548279",
+        "android_client_info": {
+          "package_name": "ii.tichatoolrecorder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "649773822460-vgktk7sv5ithpjmb34e9dcfhj52tm5k7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ii.tichatoolrecorder",
+            "certificate_hash": "3cb2fbea42d32fe460cabd62ed549fb376498d28"
+          }
+        },
+        {
+          "client_id": "649773822460-usd54fpdr8ipj6rt09ko1qul3dthhc4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQp6jv3QjeMMm6K5LAgLURu2CyKSFBBiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "649773822460-usd54fpdr8ipj6rt09ko1qul3dthhc4f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

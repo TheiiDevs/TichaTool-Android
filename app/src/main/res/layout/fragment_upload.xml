@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FragToloadInput"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3C3B3B"
+    tools:context=".Upload">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="579dp"
+        android:background="#636163">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_marginBottom="111dp"
+            android:text="Date"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/et_yy"
+            android:layout_width="100dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="84dp"
+            android:layout_marginEnd="130dp"
+            android:background="#8F8A8A"
+            android:ems="10"
+            android:inputType="date"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="74dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="43dp"
+            android:text="                              Second term"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox3" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="74dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="70dp"
+            android:text="                              First term"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="74dp"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="63dp"
+            android:text="                              Third term"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="112dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/pleasecheck"
+            android:textColor="#FFDAE7"
+            android:textSize="23dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/uploadingLY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:id="@+id/uploadFinalBtn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="171dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="171dp"
+                android:layout_marginBottom="40dp"
+                android:src="@drawable/upload"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/replaceUploadBtn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F8E9EE"
+        android:visibility="gone">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="324dp"
+            android:layout_height="313dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:background="#686767"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="93dp"
+                android:text="uploading files"
+                android:textColor="#F8E9EE"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ProgressBar
+                android:id="@+id/progBarUpload"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginEnd="50dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/uploadPromptLY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F8E9EE"
+        android:visibility="gone">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="313dp"
+            android:layout_height="254dp"
+            android:background="#323030"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="@string/userprompt"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/noUploadbtn"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginBottom="6dp"
+                android:text="@string/no"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/yesUploadbtn"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/yesUploadbtn"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="6dp"
+                android:text="@string/newyes"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
