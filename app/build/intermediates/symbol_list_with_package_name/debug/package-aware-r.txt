@@ -1488,6 +1488,7 @@ id SYM
 id SbjNetWorkOff_img
 id SchoolLogo
 id SkuWelcomLogo
+id StuNetWorkOff_img
 id Surname
 id SurnameDisplay
 id TOP_END
@@ -1585,6 +1586,7 @@ id chains
 id checkBox
 id checkBox2
 id checkBox3
+id checkBox4
 id checkbox
 id checked
 id chip
@@ -1593,6 +1595,7 @@ id chronometer
 id classesBtn
 id classesImagesBtn
 id classesTxt
+id classpinner
 id clearDataLY
 id clear_text
 id clearingDataLY
@@ -1852,10 +1855,15 @@ id standard
 id start
 id status_bar_latest_event_content
 id stretch
+id studenfullname
+id studentSearchLY
+id studentdynamictxt
 id studentsearchEdittext
+id studentsearch_img
 id subjectBtn
 id subjectImageBtn
 id subjectTxt
+id subjsearchEdittext
 id submenuarrow
 id submit_area
 id tabMode
@@ -2028,6 +2036,7 @@ layout activity_landingpage
 layout activity_main
 layout activity_sku_splashscreen
 layout activity_tsplashscreen
+layout addstudent
 layout ageandcountry
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -2046,6 +2055,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout exitpopup
+layout fragment_add_student
 layout fragment_clear_data
 layout fragment_more
 layout fragment_registration

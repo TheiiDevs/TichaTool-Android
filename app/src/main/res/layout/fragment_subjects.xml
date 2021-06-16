@@ -52,7 +52,7 @@
             android:layout_height="70dp">
 
             <EditText
-                android:id="@+id/studentsearchEdittext"
+                android:id="@+id/subjsearchEdittext"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginStart="8dp"

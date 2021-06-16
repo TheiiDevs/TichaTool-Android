@@ -4,16 +4,16 @@
         "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable-v24\\menu.png"
     },
     {
-        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_searching_subject.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable\\searching_subject.xml"
     },
     {
         "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_classes.png.flat",
         "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable-v24\\classes.png"
     },
     {
-        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_searching_subject.xml.flat",
-        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable\\searching_subject.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_nameandemail.xml.flat",
@@ -90,6 +90,10 @@
     {
         "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_task_layout.xml.flat",
         "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\layout\\task_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_addstudent.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\layout\\addstudent.xml"
     },
     {
         "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
@@ -194,6 +198,10 @@
     {
         "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_topborder.xml.flat",
         "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable\\topborder.xml"
+    },
+    {
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_add_student.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\layout\\fragment_add_student.xml"
     },
     {
         "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_tsplashscreen.xml.flat",
