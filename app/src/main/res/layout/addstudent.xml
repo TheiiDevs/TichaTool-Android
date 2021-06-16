@@ -25,7 +25,7 @@
                     android:id="@+id/studenfullname"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="First name"
+                    android:text="Full name"
                     android:textColor="#F6D9E3"
                     android:textSize="20sp" />
             </LinearLayout>
