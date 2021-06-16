@@ -1,290 +1,290 @@
 [
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_menu.png.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable-v24\\menu.png"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_applogin.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\layout\\activity_applogin.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_classes.png.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable-v24\\classes.png"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\layout_inputlayout.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\layout\\inputlayout.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_searching_subject.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable\\searching_subject.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable\\add.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_nameandemail.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\layout\\nameandemail.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_subjects.png.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable-v24\\subjects.png"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_camera.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable\\camera.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_addpupil.png.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable-v24\\addpupil.png"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\layout_task_layout.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\layout\\task_layout.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_request.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable-v24\\request.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_request.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable-v24\\request.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_profileimage.png.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable-v24\\profileimage.png"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logolauncher.png.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable\\logolauncher.png"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_clear_data.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\layout\\fragment_clear_data.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\layout_passwordandemail.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\layout\\passwordandemail.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_welcome.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\layout\\fragment_welcome.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\layout_exitpopup.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\layout\\exitpopup.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_schoolrecyclerlayout.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\layout\\schoolrecyclerlayout.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_profileimage.png.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable-v24\\profileimage.png"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_logorec.png.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable-v24\\logorec.png"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wifi_off.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable\\wifi_off.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_clear_data.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\layout\\fragment_clear_data.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_onphone.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable\\onphone.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_pinkcurves.png.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable-v24\\pinkcurves.png"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_schoollogo.png.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable-v24\\schoollogo.png"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_topbottomborder.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable\\topbottomborder.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bottomborder.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable\\bottomborder.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_vacancy.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable-v24\\vacancy.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_classes.png.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable-v24\\classes.png"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrow_back_ios.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable\\arrow_back_ios.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_logo.png.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable-v24\\logo.png"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sku_splashscreen.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\layout\\activity_sku_splashscreen.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_searching_subject.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable\\searching_subject.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_subjects.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\layout\\fragment_subjects.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_topborder.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable\\topborder.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_search.png.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable-v24\\search.png"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_registration.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\layout\\fragment_registration.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_task_layout.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\layout\\task_layout.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_menu.png.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable-v24\\menu.png"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_more24.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable\\more24.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_more.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\layout\\fragment_more.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_icons.png.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable-v24\\icons.png"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_subjects.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\layout\\fragment_subjects.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_inputlayout.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\layout\\inputlayout.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_logorec.png.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable-v24\\logorec.png"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_more24.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable\\more24.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\layout_ageandcountry.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\layout\\ageandcountry.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_topbottomborder.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable\\topbottomborder.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_student_search.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable\\student_search.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_applogin.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\layout\\activity_applogin.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_cancel.png.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable-v24\\cancel.png"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_verified.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable-v24\\verified.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bottomborder.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable\\bottomborder.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_user.png.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable-v24\\user.png"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_landingpage.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\layout\\activity_landingpage.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_vacancy.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable-v24\\vacancy.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_exitpopup.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\layout\\exitpopup.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_closeapp.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable\\closeapp.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logolauncher.png.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable\\logolauncher.png"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_registration.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\layout\\fragment_registration.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_addpupil.png.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable-v24\\addpupil.png"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_logo.png.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable-v24\\logo.png"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_arrow_drop_up_24.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_drop_up_24.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_subjects.png.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable-v24\\subjects.png"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_verified.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable-v24\\verified.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_student_search.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable\\student_search.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_pinkcurves.png.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable-v24\\pinkcurves.png"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_tsplashscreen.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\layout\\activity_tsplashscreen.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_settings_icon.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable-v24\\settings_icon.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_save.png.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable-v24\\save.png"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_voice.png.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable-v24\\voice.png"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_welcome.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\layout\\fragment_welcome.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_cancel.png.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable-v24\\cancel.png"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrow_back_ios.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable\\arrow_back_ios.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_topborder.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable\\topborder.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_schoollogo.png.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable-v24\\schoollogo.png"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_tsplashscreen.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\layout\\activity_tsplashscreen.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\layout_nameandemail.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\layout\\nameandemail.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cancel_24.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable\\cancel_24.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_more.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\layout\\fragment_more.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_settings.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable-v24\\settings.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_onphone.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable\\onphone.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_closeapp.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable\\closeapp.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_save.png.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable-v24\\save.png"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_upload.png.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable-v24\\upload.png"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_upload.png.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable-v24\\upload.png"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_24.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable\\ic_add_24.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_camera.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable\\camera.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_search.png.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable-v24\\search.png"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_ageandcountry.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\layout\\ageandcountry.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_arrow_drop_up_24.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_drop_up_24.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_settings.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\layout\\fragment_settings.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wifi_off.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable\\wifi_off.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_user.png.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable-v24\\user.png"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_remindme_register.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\layout\\fragment_remindme_register.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_remindme_register.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\layout\\fragment_remindme_register.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable\\add.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cancel_24.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable\\cancel_24.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_icons.png.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable-v24\\icons.png"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_logolauncher.png.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\mipmap-anydpi-v26\\logolauncher.png"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_settings_icon.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable-v24\\settings_icon.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\layout_schoolrecyclerlayout.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\layout\\schoolrecyclerlayout.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_settings.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable-v24\\settings.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_upload.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\layout\\fragment_upload.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_upload.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\layout\\fragment_upload.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sku_splashscreen.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\layout\\activity_sku_splashscreen.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_voice.png.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable-v24\\voice.png"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_passwordandemail.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\layout\\passwordandemail.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_logolauncher.png.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\mipmap-anydpi-v26\\logolauncher.png"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_24.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\drawable\\ic_add_24.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_settings.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\layout\\fragment_settings.xml"
     },
     {
-        "merged": "D:\\Tichatool\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_landingpage.xml.flat",
-        "source": "D:\\Tichatool\\app\\src\\main\\res\\layout\\activity_landingpage.xml"
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     }
 ]
