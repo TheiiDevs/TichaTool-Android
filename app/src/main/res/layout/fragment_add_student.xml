@@ -1,5 +1,6 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginHorizontal="16dp"
@@ -100,10 +101,39 @@
             android:layout_width="match_parent"
             android:layout_height="60dp">
 
+            <TextView
+                android:id="@+id/MarkallTxtBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:text="mark all"
+                android:textColor="#E91E63"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/addstudentdoneTxtbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:text="done"
+                android:textColor="#E91E63"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
             <Spinner
                 android:id="@+id/classpinner"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="#E91E63"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/addstudentdoneTxtbtn"
+                app:layout_constraintStart_toEndOf="@+id/MarkallTxtBtn"
+                app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <!-- let search let search predict as user types

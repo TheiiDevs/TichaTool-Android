@@ -1448,6 +1448,7 @@ drawable onphone
 drawable pinkcurves
 drawable profileimage
 drawable request
+drawable roundedges
 drawable save
 drawable schoollogo
 drawable search
@@ -1471,6 +1472,7 @@ drawable wifi_off
 id ALT
 id AddSbjLYbtn
 id Add_ubjectLY
+id AdsLY
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
@@ -1482,7 +1484,9 @@ id FirstNameDisplay
 id FoundItOnPhone_img
 id FragToloadInput
 id LessonNoteBtn
+id LoginNonetworkLY
 id META
+id MarkallTxtBtn
 id SHIFT
 id SYM
 id SbjNetWorkOff_img
@@ -1553,6 +1557,7 @@ id add
 id add_subjectEdittext
 id addicon_img
 id addstudentBtn
+id addstudentdoneTxtbtn
 id adjust_height
 id adjust_width
 id alertTitle
@@ -1573,11 +1578,12 @@ id button2
 id button3
 id buttonPanel
 id by
-id camMarker
+id camMarkerBtn
 id cancelDataclear
 id cancel_action
 id cancel_button
 id cancelinput
+id cancleRecyclerSearchBtn
 id cascore_textview
 id center
 id center_horizontal
@@ -1631,6 +1637,7 @@ id disableHome
 id downLayout
 id dropdown_menu
 id dynamictxt
+id editTextTextPersonName
 id editTextTextPersonName3
 id editTextTextPersonName4
 id editTextTextPersonName5
@@ -1683,6 +1690,7 @@ id icon_only
 id ifRoom
 id image
 id imageButton
+id imageView
 id imageView2
 id imageView3
 id imageView4
@@ -1704,8 +1712,8 @@ id linearLayout3
 id linearLayout5
 id listMode
 id list_item
+id loginDynamictxt
 id loginEditext
-id loginLY
 id loginLogo
 id login_btn
 id logoutBtn
@@ -1775,9 +1783,11 @@ id percent
 id pin
 id profileimage
 id progBarUpload
+id progressBar
 id progress_circular
 id progress_horizontal
 id radio
+id recyclerViewSearchBtn
 id refreshpromptBtn
 id regComfirmPassword
 id regDOBet
@@ -1815,6 +1825,7 @@ id scrollIndicatorUp
 id scrollView
 id scrollable
 id searchBtn
+id searchLY
 id search_badge
 id search_bar
 id search_button
@@ -1961,7 +1972,6 @@ id varified
 id varifiedInteger
 id view_offset_helper
 id visible
-id voiceBtn
 id voiceImageBtn
 id webView
 id webviewForAdsNinfo

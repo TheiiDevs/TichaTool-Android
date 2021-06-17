@@ -6,6 +6,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -43,7 +44,8 @@ public class MainActivity extends AppCompatActivity {
     // private InputAdaptor tasksAdaptor;
     android.widget.TextView teacherNameTxt, subjectTxt, voiceTxt, classesTxt, surname_textView, firstname_textView, lastname_textView, nameOfSchool, TextView, update_TextView,subject_textView,changeSchool_TextView, helpBtn, aboutbtn;
     ImageView closebtn, searchBtn,UserBtn, cancel, menuuBtn,subjectImageBtn,voiceImageBtn, Addstudent, saveBtn, uploadButton, setSchoolLogo, imageView3;
-    ConstraintLayout constraintLayout2,subjectBtn, voiceBtn, classesBtn, downLayout, classesImageBtn , mainID;
+    ImageButton searchCancle, recyclerSearch;
+    ConstraintLayout searchLy,subjectBtn, voiceBtn, classesBtn, downLayout, classesImageBtn , mainID;
     EditText  Surname, Firstname,   Middlename,FirstScore, SecondScore, ThirdScore, FourthScore, Exam;
     Button cancleNtaskBtn, Save;
     android.widget.TextView Total, CA;
@@ -83,15 +85,19 @@ public class MainActivity extends AppCompatActivity {
         //button
 
         closebtn = (ImageView) findViewById (R.id.closely);
+        recyclerSearch= (ImageButton) findViewById(R.id.recyclerViewSearchBtn);
+        searchCancle = (ImageButton) findViewById(R.id.cancleRecyclerSearchBtn);
 
         uploadButton = (ImageView) findViewById (R.id.uploadBtn);
         UserBtn = findViewById(R.id.UserBtn);
+        searchBtn = (ImageView) findViewById (R.id.searchBtn);
 
         //Layouts
 
         mainID = (ConstraintLayout) findViewById (R.id.mainID);
         classesImageBtn =(ConstraintLayout) findViewById (R.id.classesBtn);
         subjectBtn =(ConstraintLayout) findViewById (R.id.subjectBtn);
+        searchLy =(ConstraintLayout) findViewById (R.id.searchLY);
 
         //EDITTEXT
         //FirstScore = findViewById(R.id.firstscore2);
@@ -200,6 +206,22 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this, landingpage.class);
                 startActivity(i);
+            }
+        });
+
+        searchBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                searchLy.setVisibility(View.VISIBLE);
+
+            }
+        });
+
+        searchCancle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                searchLy.setVisibility(View.GONE);
+
             }
         });
 

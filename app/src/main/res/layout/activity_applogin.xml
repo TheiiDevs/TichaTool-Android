@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
+    android:visibility="visible"
     tools:context=".Applogin">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/loginLY"
         android:layout_width="match_parent"
         android:layout_height="320dp"
-        android:layout_marginTop="145dp"
+        android:layout_marginTop="215dp"
         android:layout_marginBottom="240dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -82,14 +82,14 @@
             android:layout_marginTop="31dp"
             android:ems="10"
             android:hint="enter password"
-            app:passwordToggleEnabled="true"
-            app:passwordToggleTint="#E91E63"
             android:padding="8dp"
             android:textAlignment="center"
             android:textColorHint="#FA92B5"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/email_edittext">
+            app:layout_constraintTop_toBottomOf="@+id/email_edittext"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="#E91E63">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/loginEditext"
@@ -103,9 +103,7 @@
             </com.google.android.material.textfield.TextInputEditText>
 
 
-
         </com.google.android.material.textfield.TextInputLayout>
-
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -119,5 +117,50 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progressTint="#E91E63"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/LoginNonetworkLY"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="115dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_margin="5dp"
+            app:srcCompat="@drawable/wifi_off" />
+
+        <LinearLayout
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:paddingStart="10dp">
+
+            <TextView
+                android:id="@+id/loginDynamictxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="please check your network"
+                android:textColor="#E91E63" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- the progressbar is to show user it loading the internet -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
