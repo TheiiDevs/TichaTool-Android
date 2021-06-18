@@ -39,8 +39,14 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/StuNetWorkOffLY"
             android:layout_width="match_parent"
-            android:layout_height="40dp">
+            android:layout_height="40dp"
+            android:visibility="gone">
+
+            <!-- StuNetWorkOffLY gets visible if network is off. dynamictxt changes
+             to "seems like your network is bad" for 3seconds then "click the
+             refresh icon to refresh showing refreshaddstudent image-->
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="70dp"
@@ -52,23 +58,22 @@
 
 
                 <ImageView
-                    android:id="@+id/studentsearch_img"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/searching_subject"
+                    android:id="@+id/refreshaddstudent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:visibility="gone"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
+                    app:layout_constraintTop_toBottomOf="parent"
+                    app:srcCompat="@drawable/refresh_24" />
 
                 <ImageView
-                    android:id="@+id/StuNetWorkOff_img"
+                    android:id="@+id/AddstudentnoNetwork"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/wifi_off"
-                    android:visibility="gone"
+                    android:visibility="visible"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -88,10 +93,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="5dp"
-                    android:text="dynamictxt"
+                    android:text="Your network is off, turn it on"
                     android:textColor="#B92AD1"
                     android:textSize="16sp"
-                    android:visibility="gone"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -129,6 +133,8 @@
                 android:id="@+id/classpinner"
                 android:layout_width="150dp"
                 android:layout_height="match_parent"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="5dp"
                 android:backgroundTint="#E91E63"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/addstudentdoneTxtbtn"
