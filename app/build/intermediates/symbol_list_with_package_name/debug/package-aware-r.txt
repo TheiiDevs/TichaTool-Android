@@ -1447,6 +1447,7 @@ drawable notify_panel_notification_icon_bg
 drawable onphone
 drawable pinkcurves
 drawable profileimage
+drawable refresh_24
 drawable request
 drawable roundedges
 drawable save
@@ -1563,9 +1564,6 @@ id adjust_width
 id alertTitle
 id all
 id always
-id applypromptTxt
-id askAdminLY
-id askAdminTxT
 id async
 id auto
 id backFullnamebtn
@@ -1607,12 +1605,10 @@ id clear_text
 id clearingDataLY
 id clip_horizontal
 id clip_vertical
-id closely
 id collapseActionView
 id confirm_button
 id constraintLayout
 id constraintLayout2
-id constraintLayout3
 id container
 id content
 id contentPanel
@@ -1734,7 +1730,6 @@ id month_navigation_fragment_toggle
 id month_navigation_next
 id month_navigation_previous
 id month_title
-id moreBackBtn
 id moretxtbtn
 id mtrl_calendar_day_selector_frame
 id mtrl_calendar_days_of_week
@@ -1788,7 +1783,7 @@ id progress_circular
 id progress_horizontal
 id radio
 id recyclerViewSearchBtn
-id refreshpromptBtn
+id refreshrequestBtn
 id regComfirmPassword
 id regDOBet
 id regEmail
@@ -1798,9 +1793,14 @@ id registerbtn
 id regpreviousbtn
 id removebtn
 id replaceUploadBtn
+id reqesttxtLy
+id requestLY
+id requestLybtn
 id requestNotifications
+id requestRecycler
+id requestbackBtn
+id requestprogressBar
 id resignBtn
-id returnLoginBtn
 id right
 id right_icon
 id right_side
@@ -1841,8 +1841,8 @@ id secondscore
 id secondscore_textview
 id select_dialog_listview
 id selected
-id sendcvrequest
 id settings
+id settingsBackBtn
 id settingsBtn
 id shortcut
 id showCustom
@@ -2069,7 +2069,6 @@ layout fragment_add_student
 layout fragment_clear_data
 layout fragment_more
 layout fragment_registration
-layout fragment_remindme_register
 layout fragment_settings
 layout fragment_subjects
 layout fragment_upload
@@ -2175,7 +2174,6 @@ string action_sign_in_short
 string app_name
 string appbar_scrolling_view_behavior
 string askadmin
-string bannerpopuptxt
 string bannertxt
 string bottom_sheet_behavior
 string by
@@ -2270,6 +2268,7 @@ string project_id
 string prompt_email
 string prompt_password
 string rec
+string requesttxt
 string returnTologin
 string search_menu_title
 string splash

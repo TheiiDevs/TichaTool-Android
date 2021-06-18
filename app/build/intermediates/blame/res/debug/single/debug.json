@@ -208,12 +208,20 @@
         "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\layout\\activity_tsplashscreen.xml"
     },
     {
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_refresh_24.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable\\refresh_24.xml"
+    },
+    {
         "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cancel_24.xml.flat",
         "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable\\cancel_24.xml"
     },
     {
         "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_roundedges.xml.flat",
+        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable\\roundedges.xml"
     },
     {
         "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -250,10 +258,6 @@
     {
         "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wifi_off.xml.flat",
         "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\drawable\\wifi_off.xml"
-    },
-    {
-        "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_remindme_register.xml.flat",
-        "source": "C:\\Users\\FL\\TichaTool-Android\\app\\src\\main\\res\\layout\\fragment_remindme_register.xml"
     },
     {
         "merged": "C:\\Users\\FL\\TichaTool-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add.xml.flat",

@@ -84,7 +84,6 @@ public class MainActivity extends AppCompatActivity {
 
         //button
 
-        closebtn = (ImageView) findViewById (R.id.closely);
         recyclerSearch= (ImageButton) findViewById(R.id.recyclerViewSearchBtn);
         searchCancle = (ImageButton) findViewById(R.id.cancleRecyclerSearchBtn);
 
@@ -195,10 +194,6 @@ public class MainActivity extends AppCompatActivity {
                 }
 
 
-
-
-
-
         });
 
         UserBtn.setOnClickListener(new View.OnClickListener() {
@@ -221,29 +216,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 searchLy.setVisibility(View.GONE);
-
-            }
-        });
-
-
-
-
-
-
-        closebtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                classLy.setVisibility(View.GONE);
-                subjectLY.setVisibility(View.GONE);
-                closebtn.setVisibility(View.GONE);
-                menuLaY.setVisibility(View.GONE);
-
-                Surname.getText().clear();
-                Firstname.getText().clear();
-                Middlename.getText().clear();
-
-
-
 
             }
         });

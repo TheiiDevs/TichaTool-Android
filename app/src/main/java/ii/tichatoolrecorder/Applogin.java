@@ -126,7 +126,7 @@ public class Applogin extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()){
                             Toast.makeText(Applogin.this,"Logged in Successfully", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(getApplicationContext(), MainActivity.class));}
+                            startActivity(new Intent(getApplicationContext(), landingpage.class));}
                         else{
                             Toast.makeText(Applogin.this, "Error! "+task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                         }

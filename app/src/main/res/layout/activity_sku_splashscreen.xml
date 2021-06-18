@@ -11,12 +11,9 @@
         android:id="@+id/tichatool_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="147dp"
-        android:layout_marginEnd="147dp"
         android:layout_marginBottom="43dp"
         android:text="@string/T"
-        android:textColor="#ED1679"
-        android:textColorLink="#ED1679"
+        android:textColor="#F69EC6"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,15 +32,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/schoolLogo" />
 
-    <ImageView
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/schoolLogo"
-        android:layout_width="299dp"
-        android:layout_height="299dp"
-        android:layout_marginStart="56dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_marginTop="164dp"
-        android:layout_marginEnd="56dp"
+        android:src="@drawable/schoollogo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_launcher_foreground" />
+        app:srcCompat="@drawable/schoollogo" />
 </androidx.constraintlayout.widget.ConstraintLayout>

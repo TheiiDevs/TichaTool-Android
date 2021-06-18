@@ -114,7 +114,10 @@
                 android:id="@+id/AdsLY"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:visibility="gone">
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
 
                 <WebView
                     android:id="@+id/webView"
@@ -126,7 +129,11 @@
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="#FFFFFF">
+                    android:background="#FFFFFF"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -145,12 +152,12 @@
                     android:id="@+id/textView29"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="70dp"
                     android:layout_marginTop="30dp"
                     android:text="@string/bannertxt"
                     android:textAlignment="center"
                     android:textColor="#AB2DC1"
                     android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -313,17 +320,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/addpupil" />
-
-            <ImageView
-                android:id="@+id/closely"
-                android:layout_width="40dp"
-                android:layout_height="35dp"
-                android:layout_marginTop="25dp"
-                android:visibility="gone"
-                app:layout_constraintEnd_toStartOf="@+id/uploadBtn"
-                app:layout_constraintStart_toEndOf="@+id/addstudentBtn"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/cancel" />
 
             <ImageView
                 android:id="@+id/uploadBtn"

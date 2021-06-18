@@ -39,8 +39,8 @@
     <string name="pleasecheck">"Please check a box and enter date"</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="bannertxt"> why is this showing?  <br> click more to remove ads from here</br> </string>
-    <string name="bannerpopuptxt"> why is this showing? \n this shows to pass insructions on this page to user.
-        \n if ads shows here, its due to your admin running on free version of tichatool.
-        \n click more to remove ads from here </string>
+    <string name="bannertxt"> why is this showing? \n click more to remove ads from here </string>
+    <string name="requesttxt"> seems like you don not have any request \n click the circle arrow above to refresh</string>
+
+
 </resources>

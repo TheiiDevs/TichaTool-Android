@@ -34,6 +34,7 @@
             android:layout_height="70dp"
             android:layout_centerInParent="true"
             android:layout_marginTop="120dp"
+            android:background="#FFFFFF"
             android:src="@drawable/profileimage"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -160,7 +161,7 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/sendcvrequest"
+                android:id="@+id/requestLybtn"
                 android:layout_width="match_parent"
                 android:layout_height="40dp">
 
@@ -245,13 +246,75 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <LinearLayout
+        android:id="@+id/requestLY"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#D0FFFFFF"
+        android:orientation="vertical"
+        android:visibility="gone"
         app:layout_anchor="@+id/constraintLayout2"
         app:layout_anchorGravity="center">
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageButton
+                android:id="@+id/refreshrequestBtn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="15dp"
+                android:background="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/refresh_24" />
+
+            <ImageButton
+                android:id="@+id/requestbackBtn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:background="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/arrow_back_ios" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ProgressBar
+            android:id="@+id/requestprogressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progressTint="#E91E63" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/reqesttxtLy"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/requesttxt"
+                android:textAlignment="center"
+                android:textColor="#9C27B0"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/requestRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp" />
+    </LinearLayout>
 
     <!-- circle image view to show the image -->
 
