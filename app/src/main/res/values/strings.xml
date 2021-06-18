@@ -36,7 +36,7 @@
     <string name="wecom">" welcome to "</string>
 
     <string name="clickuser">"click the round button above to add user"</string>
-    <string name="pleasecheck">"Please check a box and enter date"</string>
+    <string name="pleasecheck">Please check a box</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="bannertxt"> why is this showing? \n click more to remove ads from here </string>
